@@ -7,15 +7,10 @@ let form = document.getElementById("form-list");
 let bookList = document.getElementById("book-list");
 
 // Define Function
-
-const checkLocalStorage = () => {
-  // Q1. Screib eine Funktion, die Prüft ob es schon ein Array von Books schon auf dein Localstorage liegt wenn Ja hol die Bücher vom Localstorage
-};
-
 const newBook = () => {
   let list = document.getElementById("book-list");
   let row = document.createElement("tr");
-  let books = [];
+  let books;
 
   if (!titleEl || !authorEl || !isbnEl) {
     alertEl.innerHTML = "Please Fill All The Fields!";
@@ -23,10 +18,10 @@ const newBook = () => {
     alertEl.innerHTML = "ISBN should be numbers and should not start with 0";
   } else {
     let book = {
-      // Q2. sollte gefüllt werden mit ...
+      // Q1. sollte gefüllt werden mit ...
     };
 
-    // Q3. Ruf die "checkLocalStorage" auf und füge das neue Buch in Books Array und speichere es im Localstorage
+    // Q2. Schreib die Logik auf umzu prüfen ob ein Array von Books schon auf dein Localstorage liegt wenn Ja hol die Bücher vom Localstorage auf und füge das neue Buch in Books Array und speichere es im Localstorage
 
     //***********start */
 
@@ -52,8 +47,8 @@ const newBook = () => {
 // addEventListener
 // das macht sicher ob du schon auf localstorage Ein array von Books hast wenn die Seite lädt
 document.addEventListener("DOMContentLoaded", () => {
-  let books=[];
-  // Q4. Ruf die "checkLocalStorage" auf um zu prüfen ob ein Array von Books schon auf dein Localstorage liegt wenn Ja hol die Bücher vom Localstorage
+  let books;
+  // Q3. Schreib die Logik auf umzu prüfen ob ein Array von Books schon auf dein Localstorage liegt wenn Ja hol die Bücher vom Localstorage auf
   //***********start */
 
   //***********Ende */
@@ -75,7 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 const deleteBook = (isbn) => {
   let books=[];
-  // Q5. Ruf die "checkLocalStorage" auf um zu prüfen ob ein Array von Books schon auf dein Localstorage liegt wenn Ja hol die Bücher vom Localstorage
+  // Q4. prüfe ob ein Array von Books schon auf dein Localstorage liegt wenn Ja hol die Bücher vom Localstorage
   //***********start */
 
   //***********Ende */
@@ -87,7 +82,7 @@ const deleteBook = (isbn) => {
       alertEl.innerHTML = "Book removed";
     }
 
-    // Q6. sicherstellen, dass das Array nach der Löschung aktualisiert wird
+    // Q5. sicherstellen, dass das Array nach der Löschung aktualisiert wird
     //***********start */
 
     //***********Ende */

@@ -11,11 +11,7 @@
 
 # Fragenstruktur
 
-## Q1 - Zeile 12
-
-* vervollständige die Funktion
-
-## Q2. Zeile 26
+## Q1. Zeile 21
 * Das book (Objekt) soll mit dem richtigen Input aufgefüllt werden
 * Schau dir dazu das Beispiel an:
 
@@ -28,19 +24,19 @@ let book = {
 };
 ```
 
-## Q3. Zeile 32
+## Q2. Zeile 27
 
-* Ruf die "checkLocalStorage" auf und füge das neue Buch in Books Array und speichere es im Localstorage
+* Schreib die Logik auf umzu prüfen ob ein Array von Books schon auf dein Localstorage liegt wenn Ja hol die Bücher vom Localstorage auf und füge das neue Buch in Books Array und speichere es im Localstorage
 
-## Q4. Zeile 58
+## Q3. Zeile 53
 
-* Ruf die "checkLocalStorage" auf um zu prüfen ob ein Array von Books schon auf dein Localstorage liegt wenn Ja hol die Bücher vom Localstorage
+* Schreib die Logik auf umzu prüfen ob ein Array von Books schon auf dein Localstorage liegt wenn Ja hol die Bücher vom Localstorage auf
 
-## Q5. Zeile 80
+## Q4. Zeile 75
 
-* Ruf die "checkLocalStorage" auf um zu prüfen ob ein Array von Books schon auf dein Localstorage liegt wenn Ja hol die Bücher vom Localstorage
+* prüfe ob ein Array von Books schon auf dein Localstorage liegt wenn Ja hol die Bücher vom Localstorage
 
-## Q6. Zeile 92
+## Q5. Zeile 87
 
 * sicherstellen, dass das Array nach der Löschung aktualisiert wird
 
