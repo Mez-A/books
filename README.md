@@ -1,6 +1,6 @@
 # Localstorage Übung
 
-![](https://github.com/Mez-A/books/localStorage.gif)
+![gg](/localStorage.gif)
 
 ## Test Anweisungen
 * Arbeite mit der `app.js`-Datei, die im Starter Repository liegt.
